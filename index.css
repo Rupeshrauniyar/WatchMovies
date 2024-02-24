@@ -1,0 +1,128 @@
+@font-face {
+    font-family: neu;
+    src: url(./NHaasGroteskTXPro-55Rg.ttf);
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ font-family: neu;
+ scroll-behavior: smooth;
+ background-color: #000;
+}
+
+nav{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ position: relative;
+ width: 100%;
+ height: 8vh;
+ padding: 0;
+ color: #fff;
+ background-color:#232323;
+ overflow: hidden;
+}
+nav a{
+ text-decoration: none;
+ background-color: transparent;
+}
+#search{
+ margin-right: 20px;
+ background-color: transparent;
+}
+#menu{
+ background-color: transparent;
+ margin-left: 20px;
+}
+nav img{
+ width: 100px;
+ height: 50px;
+ object-fit: contain;
+ filter: invert(100%) brightness(100%);
+  background-color: transparent;
+}
+
+.nav2{
+ width: 100%;
+ height: 5vh;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ padding: 10px 0;
+ background-color:#232323 ;
+}
+.nav2 input{
+ width: 98%;
+ height: 5vh;
+ color: #fff;
+ border-color: #dadada;
+ border-radius: 5px;
+ outline: none;
+ border: 1px solid;
+ box-shadow: #fff;
+ font-weight: 200;
+}
+
+
+
+.page1{
+ width: 100%;
+ min-height: 100vh;
+ color: #fff;
+ 
+}
+
+.featured{
+ padding: 20px 20px;
+}
+.page1 h3{
+ border-left: 2px solid #5a5cb3;
+ padding: 0 8px;
+}
+
+
+
+
+
+.container{
+ width: 27vw;
+ height: 25vh;
+ object-fit: contain;
+ padding: 4vh 3vw;
+
+}
+
+
+.img-container{
+ width: 100%;
+
+  
+}
+.img-container img{
+ width: 100%;
+ object-fit: contain;
+ height: 90%;
+ border-radius: 10px;
+}
+
+
+.title{
+  box-shadow: 0 0 2px #232323; 
+  padding: 10px 10px;
+  border-radius: 5px;
+  
+}
+.container a{
+ text-decoration: none;
+ color: #fff;
+ font-weight: 200;
+}
+
+
+.item{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
