@@ -5,14 +5,14 @@ fetch('https://my-json-server.typicode.com/rupeshrauniyar/film/film')
     .then(data => {
         var clutter = "";
         data.forEach(function(data, index) {
-            clutter += `<a href="watch.html"><div class="container" id="${index}">
+            clutter += `<div class="container" id="${index}">
                             <div class="img-container">
                                 <img src="${data.img}" alt="">
                             </div>
                             <div class="title">
                                 <h4>${data.title}</h4>
                                 <span>${data.year}</span>
-                            </div></a>
+                            </div>
                         </div>`;
                 
         });
