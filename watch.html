@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="watch.css">
+    <title>watch.html</title>
+</head>
+<body>
+
+<div class="item">
+    
+</div>
+
+<div class="Main">
+<IFRAME SRC="" id="iframe"></IFRAME>
+
+    
+</div>
+
+<script src="index.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var iframeSrc = decodeURIComponent(new URLSearchParams(window.location.search).get('iframeSrc'));
+    document.getElementById('iframe').src = iframeSrc;
+});
+
+</script>
+</body>
+</html>
